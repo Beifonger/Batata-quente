@@ -1,0 +1,9 @@
+const { match } = require("assert")
+const arrSegundaLetra = require("./arrSegundaLetra.js")
+
+function segundaLetra(){
+    let numero = Math.floor(Math.random())
+    let aSL = arrSegundaLetra()
+
+    return aSL[numero]
+}
